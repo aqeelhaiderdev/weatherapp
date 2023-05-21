@@ -15,31 +15,41 @@
     <div class="container">
       <div class="search-box">
         <form action="#">
-          <input type="text" placeholder="Search name of the city" />
-          <button type="submit">
+          <input
+            class="inputSearch"
+            type="text"
+            placeholder="Search name of the city"
+          />
+          <button class="searchBtn" type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
       </div>
+
+      <div class="error">
+        <p class="erro-msg">asdfasdfasdf</p>
+        <img src="./src/img/404.png" / class="erro-img">
+      </div>
+
       <div class="weather-box">
         <div class="weather-details">
           <img class="weather-img" src="./src/img/clear.png" />
           <div class="weather-info">
-            <p class="temperature">14°C</p>
-            <p class="temp-disp">Light Rain</p>
+            <p class="temperature"></p>
+            <p class="temp-disp"></p>
           </div>
           <div class="weather-extra">
             <div class="humadity">
               <i class="fa-solid fa-droplet"></i>
               <div>
-                <span>45%</span>
+                <span class="hum-text"></span>
                 <p>Humadity</p>
               </div>
             </div>
             <div class="wind">
               <i class="fa-solid fa-wind"></i>
               <div>
-                <span>12km/h</span>
+                <span class="wind-text"></span>
                 <p>Wind</p>
               </div>
             </div>

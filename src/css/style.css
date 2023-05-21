@@ -53,6 +53,27 @@ body {
   background-color: #ababab;
 }
 
+.error {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.erro-msg {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.erro-img {
+  width: 80%;
+  margin-top: 3rem;
+}
+
+.weather-box {
+  display: none;
+}
+
 .weather-details {
   display: flex;
   align-items: center;
